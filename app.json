@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "YourAppName",
+    "slug": "YourAppName",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "sdkVersion": "40.0.0",
+    "permissions": ["CAMERA", "CAMERA_ROLL"],
+    "android": {
+      "package": "com.yourapp.package",
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_API_KEY"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourapp.bundle"
+    }
+  }
+}
